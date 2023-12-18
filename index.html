@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CodePen - Apple AirPods Pro Animation (final demo)</title>
+    <style>
+      body{
+        overflow-x: hidden;
+      }
+      .section{
+        opacity: 0.5;
+        position: relative;
+        z-index: 999;
+        height: 100vh;
+      }
+      #hero-lightpass{
+        height: 100vh;
+        position: sticky;
+        top: 0px;
+        /* margin-bottom: -97.5vh!important; */
+        overflow-x: hidden;
+     
+      }
+      #start_wwd_amin{
+        height: auto;
+      }
+      *{
+        margin: 0px !important;
+      }
+      
+    </style>
+  </head>
+
+  <body>
+    <div id="start_wwd_amin">
+      <canvas id="hero-lightpass" ></canvas>
+      <div class="section" style="width: 100%;background-color: red;margin-top: -100vh !important;"></div>
+      <div class="section" style="width: 100%;background-color: rgb(243, 255, 77);"></div>
+      <div class="section" style="width: 100%;background-color: rgb(140, 0, 255);"></div>
+      <div class="section" style="width: 100%;background-color: rgb(44, 236, 26);"></div>
+      <div class="section" style="width: 100%;background-color: rgb(236, 26, 183);"></div>
+    </div>
+    <div style="height: 100vh; background-color: rgb(128, 0, 43); width: 100%;opacity: 0.5"></div>
+
+    <!-- partial -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1/bundled/lenis.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
